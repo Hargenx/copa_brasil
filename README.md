@@ -21,7 +21,7 @@ Obviamente é só uma brincadeira feita em 40 minutos durante o segundo tempo de
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/Hargenx/copa-do-brasil-2024.git
+   git clone https://github.com/Hargenx/copa_brasil.git
    cd copa-do-brasil-2024
     ```
 
@@ -38,7 +38,7 @@ Obviamente é só uma brincadeira feita em 40 minutos durante o segundo tempo de
 
 - copa_do_brasil_2024.json: Arquivo JSON contendo informações sobre os clubes e critérios.
 - main.py: Código-fonte principal para sorteio de confrontos.
-- index.html: Template HTML para exibição dos confrontos.
+- template.html: Template HTML para exibição dos confrontos.
 
 ## Contribuições
 
