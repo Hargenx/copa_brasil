@@ -1,0 +1,464 @@
+{
+    "clubes": [
+        {
+            "clube": "Fluminense",
+            "uf_origem": "RJ",
+            "critério": "Libertadores"
+        },
+        {
+            "clube": "São Paulo",
+            "uf_origem": "SP",
+            "critério": "Libertadores"
+        },
+        {
+            "clube": "Palmeiras",
+            "uf_origem": "SP",
+            "critério": "Libertadores"
+        },
+        {
+            "clube": "Grêmio",
+            "uf_origem": "RS",
+            "critério": "Libertadores"
+        },
+        {
+            "clube": "Atlético Mineiro",
+            "uf_origem": "MG",
+            "critério": "Libertadores"
+        },
+        {
+            "clube": "Flamengo",
+            "uf_origem": "RJ",
+            "critério": "Libertadores"
+        },
+        {
+            "clube": "Botafogo",
+            "uf_origem": "RJ",
+            "critério": "Libertadores"
+        },
+        {
+            "clube": "Red Bull Bragantino",
+            "uf_origem": "SP",
+            "critério": "Libertadores"
+        },
+        {
+            "clube": "Ceará",
+            "uf_origem": "CE",
+            "critério": "Copa do Nordeste"
+        },
+        {
+            "clube": "Goiás",
+            "uf_origem": "GO",
+            "critério": "Copa Verde"
+        },
+        {
+            "clube": "Vitória",
+            "uf_origem": "BA",
+            "critério": "Brasileiro Série B"
+        },
+        {
+            "clube": "Athletico Paranaense",
+            "uf_origem": "PR",
+            "critério": "Brasileiro Série A"
+        },
+        {
+            "clube": "Rio Branco",
+            "uf_origem": "AC",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Humaitá",
+            "uf_origem": "AC",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "CRB",
+            "uf_origem": "AL",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "ASA",
+            "uf_origem": "AL",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Murici",
+            "uf_origem": "AL",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Amazonas",
+            "uf_origem": "AM",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Manauara",
+            "uf_origem": "AM",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Trem",
+            "uf_origem": "AP",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Independente",
+            "uf_origem": "AP",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Bahia",
+            "uf_origem": "BA",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Jacuipense",
+            "uf_origem": "BA",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Itabuna",
+            "uf_origem": "BA",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Fortaleza",
+            "uf_origem": "CE",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Iguatu",
+            "uf_origem": "CE",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Ferroviário",
+            "uf_origem": "CE",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Real Brasília",
+            "uf_origem": "DF",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Brasiliense",
+            "uf_origem": "DF",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Real Noroeste",
+            "uf_origem": "ES",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Nova Venécia",
+            "uf_origem": "ES",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Atlético Goianiense",
+            "uf_origem": "GO",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Aparecidense",
+            "uf_origem": "GO",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Anápolis",
+            "uf_origem": "GO",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Maranhão",
+            "uf_origem": "MA",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Moto Club",
+            "uf_origem": "MA",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Sampaio Corrêa",
+            "uf_origem": "MA",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "América",
+            "uf_origem": "MG",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Cruzeiro",
+            "uf_origem": "MG",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Athletic",
+            "uf_origem": "MG",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Tombense",
+            "uf_origem": "MG",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Vila Nova",
+            "uf_origem": "MG",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Costa Rica",
+            "uf_origem": "MS",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Operário",
+            "uf_origem": "MS",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Cuiabá",
+            "uf_origem": "MT",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "União",
+            "uf_origem": "MT",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Operário VG",
+            "uf_origem": "MT",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Águia de Marabá",
+            "uf_origem": "PA",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Remo",
+            "uf_origem": "PA",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Paysandu",
+            "uf_origem": "PA",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Treze",
+            "uf_origem": "PB",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Sousa",
+            "uf_origem": "PB",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Sport",
+            "uf_origem": "PE",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Retrô",
+            "uf_origem": "PE",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Petrolina",
+            "uf_origem": "PE",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "River",
+            "uf_origem": "PI",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Fluminense",
+            "uf_origem": "PI",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "FC Cascavel",
+            "uf_origem": "PR",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Operário",
+            "uf_origem": "PR",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Maringá",
+            "uf_origem": "PR",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Coritiba",
+            "uf_origem": "PR",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Cianorte",
+            "uf_origem": "PR",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Vasco",
+            "uf_origem": "RJ",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Volta Redonda",
+            "uf_origem": "RJ",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Audax",
+            "uf_origem": "RJ",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Nova Iguaçu",
+            "uf_origem": "RJ",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Portuguesa",
+            "uf_origem": "RJ",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Olaria",
+            "uf_origem": "RJ",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "América",
+            "uf_origem": "RN",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "ABC",
+            "uf_origem": "RN",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Porto Velho",
+            "uf_origem": "RO",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Ji-Paraná",
+            "uf_origem": "RO",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "São Raimundo",
+            "uf_origem": "RR",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "GAS",
+            "uf_origem": "RR",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Caxias",
+            "uf_origem": "RS",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Internacional",
+            "uf_origem": "RS",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Ypiranga",
+            "uf_origem": "RS",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Juventude",
+            "uf_origem": "RS",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "São Luiz",
+            "uf_origem": "RS",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Criciúma",
+            "uf_origem": "SC",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Brusque",
+            "uf_origem": "SC",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Marcílio Dias",
+            "uf_origem": "SC",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Itabaiana",
+            "uf_origem": "SE",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Confiança",
+            "uf_origem": "SE",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Água Santa",
+            "uf_origem": "SP",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Ituano",
+            "uf_origem": "SP",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "São Bernardo",
+            "uf_origem": "SP",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Corinthians",
+            "uf_origem": "SP",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Botafogo",
+            "uf_origem": "SP",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Portuguesa",
+            "uf_origem": "SP",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Tocantinópolis",
+            "uf_origem": "TO",
+            "critério": "Estadual"
+        },
+        {
+            "clube": "Capital",
+            "uf_origem": "TO",
+            "critério": "Estadual"
+        }
+    ]
+}
