@@ -26,10 +26,22 @@ def sortear_confrontos_1a_fase(clubes_iniciais: Dict[str, List[Dict[str, str]]])
     Returns:
         Uma lista de dicionários representando os confrontos sorteados.
     """
-    confrontos_1a_fase = [
-        {'clube_I': random.choice(clubes_iniciais['I'])['clube'], 'clube_II': random.choice(clubes_iniciais['II'])['clube']}
-        for _ in range(40)
-    ]
+    confrontos_1a_fase = []
+    for _ in range(40):
+        clube_bloco_I = random.choice(clubes_iniciais['I'])
+        clubes_iniciais['I'].remove(clube_bloco_I)
+
+        clube_bloco_II = random.choice(clubes_iniciais['II'])
+        clubes_iniciais['II'].remove(clube_bloco_II)
+
+        confronto = {
+            'clube_I': clube_bloco_I['clube'],
+            'uf_I': clube_bloco_I['uf_origem'],
+            'clube_II': clube_bloco_II['clube'],
+            'uf_II': clube_bloco_II['uf_origem']
+        }
+        confrontos_1a_fase.append(confronto)
+
     return confrontos_1a_fase
 
 def validar_confronto(confronto: Dict[str, str]) -> None:
@@ -42,8 +54,8 @@ def validar_confronto(confronto: Dict[str, str]) -> None:
     Raises:
         ValueError: Se o confronto não possui as chaves esperadas.
     """
-    if not all(chave in confronto for chave in ['clube_I', 'clube_II']):
-        raise ValueError("O confronto não possui as chaves esperadas 'clube_I' e 'clube_II'.")
+    if not all(chave in confronto for chave in ['clube_I', 'uf_I', 'clube_II', 'uf_II']):
+        raise ValueError("O confronto não possui as chaves esperadas 'clube_I', 'uf_I', 'clube_II' e 'uf_II'.")
 
 def print_confrontos(confrontos: List[Dict[str, str]], fase: str) -> None:
     """
@@ -57,20 +69,22 @@ def print_confrontos(confrontos: List[Dict[str, str]], fase: str) -> None:
         None
     """
     print(f"Confrontos da {fase} Fase:")
-    for confronto in confrontos:
+    for idx, confronto in enumerate(confrontos, start=1):
         validar_confronto(confronto)
-        print(f"Jogo {confrontos.index(confronto) + 1}: {confronto['clube_I']} vs {confronto['clube_II']}")
+        clube_I = f"{confronto['clube_I']} ({confronto['uf_I']})"
+        clube_II = f"{confronto['clube_II']} ({confronto['uf_II']})"
+        print(f"Jogo {idx}: {clube_I} vs {clube_II}")
 
 def renderizar_html(confrontos: List[Dict[str, str]], fase: str) -> str:
     """
-    cria o HTML para os confrontos.
+    Cria o HTML para os confrontos.
 
     Args:
         confrontos: Uma lista de dicionários representando os confrontos.
         fase: Uma string representando a fase dos confrontos.
 
     Returns:
-        None
+        Uma string contendo o HTML gerado.
     """
     env = Environment(loader=FileSystemLoader('.'))
     template = env.get_template('index.html')

@@ -27,7 +27,7 @@
 
     {% for confronto in confrontos %}
         <div class="confronto">
-            <p><strong>Jogo {{ loop.index }}:</strong> {{ confronto['clube_I'] }} vs {{ confronto['clube_II'] }}</p>
+            <p><strong>Jogo {{ loop.index }}:</strong> {{ confronto['clube_I'] }} ({{ confronto['uf_I'] }}) vs {{ confronto['clube_II'] }} ({{ confronto['uf_II'] }})</p>
         </div>
     {% endfor %}
 </body>
