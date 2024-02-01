@@ -87,7 +87,7 @@ def renderizar_html(confrontos: List[Dict[str, str]], fase: str) -> str:
         Uma string contendo o HTML gerado.
     """
     env = Environment(loader=FileSystemLoader('.'))
-    template = env.get_template('index.html')
+    template = env.get_template('template.html')
     return template.render(confrontos=confrontos, fase=fase)
 
 def main() -> None:
