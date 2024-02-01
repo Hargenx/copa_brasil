@@ -3,11 +3,13 @@
 Este é um programa Python para simular o sorteio de confrontos da Copa do Brasil 2024. O programa utiliza dados fornecidos em um arquivo JSON que contém informações sobre os clubes participantes e os critérios para entrada na competição.
 
 Dados usados e alguns crietérios:
+
 https://www.cbf.com.br/futebol-brasileiro/noticias/copa-brasil/copa-do-brasil-2024-confira-os-documentos-tecnicos
 
 Obviamente é só uma brincadeira feita em 40 minutos durante o segundo tempo de Flamengo e Sampaio Coreia pela quarta rodada do Estadua do Rio de Janeiro, logo, lol....
 
-![Alt text](image.png)
+![A taça](image.png)
+
 
 ## Pré-requisitos
 
