@@ -36,9 +36,9 @@ Obviamente é só uma brincadeira feita em 40 minutos durante o segundo tempo de
 
 ## Estrutura do Projeto
 
-copa_do_brasil_2024.json: Arquivo JSON contendo informações sobre os clubes e critérios.
-sorteio_confrontos.py: Código-fonte principal para sorteio de confrontos.
-index.html: Template HTML para exibição dos confrontos.
+- copa_do_brasil_2024.json: Arquivo JSON contendo informações sobre os clubes e critérios.
+- main.py: Código-fonte principal para sorteio de confrontos.
+- index.html: Template HTML para exibição dos confrontos.
 
 ## Contribuições
 
